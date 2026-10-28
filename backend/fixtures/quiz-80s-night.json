@@ -1,0 +1,199 @@
+{
+  "id": "quiz-80s-night",
+  "name": "80s Night",
+  "description": "Neon decade \u2014 music, film, and pop culture from the 1980s.",
+  "rounds": [
+    {
+      "id": "b9c1de03-40ec-4e04-a8a7-0c12e025993c",
+      "title": "Name That Tune (80s)",
+      "theme": "Music",
+      "questions": [
+        {
+          "id": "cf2cbd5a-4360-4150-9c1c-eb3693ed50f1",
+          "points": 1,
+          "acceptedAnswers": [
+            "Michael Jackson",
+            "MJ"
+          ],
+          "type": "music",
+          "prompt": "Who sings \u201cBillie Jean\u201d?",
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "4603408",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3?hdnea=exp=1792059151~acl=/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3*~data=user_id=0,application_id=42~hmac=f057d6693101719a1b642fe5cfa18aea0d967b6b86ba4485ea177975e710ec5d",
+            "title": "Billie Jean",
+            "artist": "Michael Jackson"
+          }
+        },
+        {
+          "id": "3d78b0e0-ad36-4a91-9fef-056a2033d128",
+          "points": 1,
+          "acceptedAnswers": [
+            "a-ha",
+            "aha"
+          ],
+          "type": "music",
+          "prompt": "Which band recorded \u201cTake On Me\u201d?",
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "126848613",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/b/0/8ab405ece8e5a5e8a3590a673cb18d9a.mp3?hdnea=exp=1792059151~acl=/api/1/1/8/a/b/0/8ab405ece8e5a5e8a3590a673cb18d9a.mp3*~data=user_id=0,application_id=42~hmac=8fcce61ef80aba9167b059e0cadfb685279d2901968baa826a8838a4bd439e24",
+            "title": "Take On Me",
+            "artist": "a-ha"
+          }
+        },
+        {
+          "id": "3165f3fc-3b8f-47ee-8d7f-e2c626d7bcdb",
+          "points": 1,
+          "acceptedAnswers": [
+            "Madonna"
+          ],
+          "type": "music",
+          "prompt": "Name the artist of \u201cLike a Virgin\u201d.",
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "2485118",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/9/0/0c9cc0beae938bd297f288ff142133f4.mp3?hdnea=exp=1792059152~acl=/api/1/1/0/c/9/0/0c9cc0beae938bd297f288ff142133f4.mp3*~data=user_id=0,application_id=42~hmac=5101c54bf8baaa74920610377f3e2ff73de4186fa49e92a8cad6ba166ddddf8d",
+            "title": "Like a Virgin",
+            "artist": "Madonna"
+          }
+        },
+        {
+          "id": "bc6986f8-d629-4cf3-9643-0e6c461d2944",
+          "points": 1,
+          "acceptedAnswers": [
+            "Prince",
+            "Prince Rogers Nelson"
+          ],
+          "type": "music",
+          "prompt": "Who sings \u201cPurple Rain\u201d?",
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "2174201977",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/6/0/8c6f7e7fa9fb47ef212aa4607b0500fc.mp3?hdnea=exp=1792059152~acl=/api/1/1/8/c/6/0/8c6f7e7fa9fb47ef212aa4607b0500fc.mp3*~data=user_id=0,application_id=42~hmac=81d90a42b62f6e5051cdb68fcbf1c666ae824d218cad8bcd33b6cd4e0684ad43",
+            "title": "Purple Rain",
+            "artist": "Prince"
+          }
+        },
+        {
+          "id": "1a1ca05c-c708-43c7-a455-81b99873bdbe",
+          "points": 1,
+          "acceptedAnswers": [
+            "Band Aid",
+            "BandAid"
+          ],
+          "type": "open",
+          "prompt": "Which 1985 charity single asked \u201cDo They Know It\u2019s Christmas?\u201d"
+        },
+        {
+          "id": "29052b29-feed-491c-a011-f770beda53b2",
+          "points": 1,
+          "acceptedAnswers": [
+            "NES",
+            "Nintendo Entertainment System"
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which console launched in North America in 1985?",
+          "choices": [
+            "Sega Genesis",
+            "NES",
+            "PlayStation",
+            "Atari Jaguar"
+          ]
+        },
+        {
+          "id": "74fdbe13-27b4-4f8a-8f1d-8e40bd910e13",
+          "points": 1,
+          "acceptedAnswers": [
+            "1989"
+          ],
+          "type": "numeric",
+          "prompt": "In what year did the Berlin Wall fall?",
+          "numeric": {
+            "exact": 1989
+          }
+        },
+        {
+          "id": "96660a5a-52e5-4f7c-ae52-aecee04570c5",
+          "points": 1,
+          "acceptedAnswers": [
+            "Ronald Reagan",
+            "Reagan"
+          ],
+          "type": "open",
+          "prompt": "Who was US President for most of the 1980s?"
+        }
+      ]
+    },
+    {
+      "id": "9757075b-79b4-47a7-b00e-6684dd96d6ef",
+      "title": "80s Screen",
+      "theme": "Film & TV",
+      "questions": [
+        {
+          "id": "e9d5a82d-9b72-42ec-9b9e-95c9b0fc7afb",
+          "points": 1,
+          "acceptedAnswers": [
+            "Steven Spielberg",
+            "Spielberg"
+          ],
+          "type": "open",
+          "prompt": "Who directed \u201cE.T. the Extra-Terrestrial\u201d (1982)?"
+        },
+        {
+          "id": "e4443922-d775-4b81-98bc-ae258df7e4bc",
+          "points": 1,
+          "acceptedAnswers": [
+            "DeLorean",
+            "a DeLorean"
+          ],
+          "type": "open",
+          "prompt": "In \u201cBack to the Future\u201d, what is the time machine built from?"
+        },
+        {
+          "id": "2fdfbdd4-c0cb-4684-b4d4-bf6852695084",
+          "points": 1,
+          "acceptedAnswers": [
+            "Dirty Dancing"
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which film features the line \u201cNobody puts Baby in a corner\u201d?",
+          "choices": [
+            "Flashdance",
+            "Dirty Dancing",
+            "Footloose",
+            "Grease"
+          ]
+        },
+        {
+          "id": "068a3f5f-e54e-4877-afd4-59551cd68cd8",
+          "points": 1,
+          "acceptedAnswers": [
+            "Hawkins"
+          ],
+          "type": "open",
+          "prompt": "Name the fictional town in \u201cStranger Things\u201d (set in the 80s)."
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "allowMultipleChoice": true,
+    "themeId": "modern",
+    "defaultPoints": 1
+  },
+  "createdAt": "2026-10-15T08:57:31.142Z",
+  "updatedAt": "2026-10-15T08:57:31.142Z"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "quiz-science-lab",
+  "name": "Science Lab",
+  "description": "Physics, chemistry, biology, and space — pub-friendly science night.",
+  "rounds": [
+    {
+      "id": "c320a29c-2f77-4b8d-bb86-f0cf9717f8a4",
+      "title": "Lab Bench",
+      "theme": "General science",
+      "questions": [
+        {
+          "id": "56cdb6bc-bafc-43d2-9867-ce9a3ad32568",
+          "points": 1,
+          "acceptedAnswers": [
+            "Au"
+          ],
+          "type": "open",
+          "prompt": "What is the chemical symbol for gold?"
+        },
+        {
+          "id": "4f08e200-bba9-401e-9647-be03a1e6ad3a",
+          "points": 1,
+          "acceptedAnswers": [
+            "6"
+          ],
+          "type": "numeric",
+          "prompt": "What is the atomic number of carbon?",
+          "numeric": {
+            "exact": 6
+          }
+        },
+        {
+          "id": "dc30e76a-53a3-45e0-ac88-12be4071cae5",
+          "points": 1,
+          "acceptedAnswers": [
+            "Water"
+          ],
+          "type": "multiple_choice",
+          "prompt": "What is H₂O commonly known as?",
+          "choices": [
+            "Hydrogen peroxide",
+            "Water",
+            "Salt",
+            "Ammonia"
+          ]
+        },
+        {
+          "id": "f00a841c-d3ab-4cbc-b75a-4a20072ebd39",
+          "points": 1,
+          "acceptedAnswers": [
+            "Mars"
+          ],
+          "type": "open",
+          "prompt": "What planet is known as the Red Planet?"
+        },
+        {
+          "id": "a42f976e-3867-4c25-bc28-a4ef43dfb31c",
+          "points": 1,
+          "acceptedAnswers": [
+            "Gravity",
+            "gravitation"
+          ],
+          "type": "open",
+          "prompt": "What force keeps planets in orbit around the Sun?"
+        },
+        {
+          "id": "98355b94-a615-4013-b58a-c3fe110aa9e1",
+          "points": 1,
+          "acceptedAnswers": [
+            "360"
+          ],
+          "type": "numeric",
+          "prompt": "Approximately how many degrees are in a circle?",
+          "numeric": {
+            "exact": 360
+          }
+        },
+        {
+          "id": "89224240-d4f0-45d0-ae0e-6800c9e1259a",
+          "points": 1,
+          "acceptedAnswers": [
+            "Deoxyribonucleic acid",
+            "deoxyribonucleic acid"
+          ],
+          "type": "open",
+          "prompt": "DNA stands for…?"
+        },
+        {
+          "id": "16124f88-8036-47b5-a84a-e1890e12eb98",
+          "points": 1,
+          "acceptedAnswers": [
+            "Electron"
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which particle has a negative charge?",
+          "choices": [
+            "Proton",
+            "Neutron",
+            "Electron",
+            "Photon"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5877ce35-0581-4e64-950c-cf2ce261ad69",
+      "title": "Space & Earth",
+      "theme": "Astronomy & geology",
+      "questions": [
+        {
+          "id": "423a0c8e-edd8-43be-ac97-4adaf49bdacd",
+          "points": 1,
+          "acceptedAnswers": [
+            "Jupiter"
+          ],
+          "type": "open",
+          "prompt": "What is the largest planet in our solar system?"
+        },
+        {
+          "id": "b9ed6c34-5df0-4a8b-be18-4b96a3295104",
+          "points": 1,
+          "acceptedAnswers": [
+            "1969"
+          ],
+          "type": "numeric",
+          "prompt": "In what year did humans first land on the Moon?",
+          "numeric": {
+            "exact": 1969
+          }
+        },
+        {
+          "id": "9dbef7d4-ddf3-4139-96d5-a26246543871",
+          "points": 1,
+          "acceptedAnswers": [
+            "Carbon dioxide",
+            "CO2",
+            "CO₂"
+          ],
+          "type": "open",
+          "prompt": "What gas do plants absorb for photosynthesis?"
+        },
+        {
+          "id": "8ae93c53-1615-4c8c-ace5-2ee574cc2ea2",
+          "points": 1,
+          "acceptedAnswers": [
+            "Diamond"
+          ],
+          "type": "open",
+          "prompt": "What is the hardest natural mineral on the Mohs scale?"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "allowMultipleChoice": true,
+    "themeId": "modern",
+    "defaultPoints": 1
+  },
+  "createdAt": "2026-10-15T08:57:31.142Z",
+  "updatedAt": "2026-10-15T08:57:31.142Z"
+}

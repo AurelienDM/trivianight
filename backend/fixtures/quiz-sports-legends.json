@@ -1,0 +1,166 @@
+{
+  "id": "quiz-sports-legends",
+  "name": "Sports Legends",
+  "description": "Football, Olympics, and sporting history for a lively pub round.",
+  "rounds": [
+    {
+      "id": "f47ae0f5-cf7c-4cc4-aaeb-59741a9fd92d",
+      "title": "Pitch & Court",
+      "theme": "General sports",
+      "questions": [
+        {
+          "id": "1611cfbc-3f60-4b0a-9433-bad60f66ef7d",
+          "points": 1,
+          "acceptedAnswers": [
+            "11",
+            "eleven"
+          ],
+          "type": "open",
+          "prompt": "How many players are on a soccer team on the field per side?"
+        },
+        {
+          "id": "6ef80e96-a53f-428b-a588-abad81dfe047",
+          "points": 1,
+          "acceptedAnswers": [
+            "Brazil"
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which country has won the most FIFA World Cups?",
+          "choices": [
+            "Germany",
+            "Brazil",
+            "Italy",
+            "Argentina"
+          ]
+        },
+        {
+          "id": "45fe7fb9-4822-4646-97d8-7c4729cd35d8",
+          "points": 1,
+          "acceptedAnswers": [
+            "Love"
+          ],
+          "type": "open",
+          "prompt": "In tennis, what is a score of zero called?"
+        },
+        {
+          "id": "61d50689-9707-465e-8061-5b3ffb8ccaa2",
+          "points": 1,
+          "acceptedAnswers": [
+            "90"
+          ],
+          "type": "numeric",
+          "prompt": "How many minutes are in a standard soccer match (regulation, no stoppage)?",
+          "numeric": {
+            "exact": 90
+          }
+        },
+        {
+          "id": "d3357186-e9b9-4085-846c-0155ac0916a2",
+          "points": 1,
+          "acceptedAnswers": [
+            "Badminton"
+          ],
+          "type": "open",
+          "prompt": "Which sport uses a shuttlecock?"
+        },
+        {
+          "id": "af4a99a5-8669-4204-b3bd-0f9eba506c67",
+          "points": 1,
+          "acceptedAnswers": [
+            "Citius, Altius, Fortius",
+            "Faster Higher Stronger",
+            "Faster, Higher, Stronger"
+          ],
+          "type": "open",
+          "prompt": "What is the Olympic motto in Latin (or English “Faster, Higher, Stronger”)?"
+        },
+        {
+          "id": "7aa14a4f-65ed-4d7a-80c9-a606e0ad54ed",
+          "points": 1,
+          "acceptedAnswers": [
+            "3",
+            "three"
+          ],
+          "type": "multiple_choice",
+          "prompt": "In basketball, how many points is a shot from beyond the arc worth?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "1b525f5f-8722-4730-a590-4df8bdf31b4a",
+          "points": 1,
+          "acceptedAnswers": [
+            "United Kingdom",
+            "UK",
+            "Great Britain",
+            "England",
+            "London"
+          ],
+          "type": "open",
+          "prompt": "Which country hosted the 2012 Summer Olympics?"
+        }
+      ]
+    },
+    {
+      "id": "5252ab13-91eb-4681-9692-a3dcab8bc837",
+      "title": "Legends",
+      "theme": "Famous athletes",
+      "questions": [
+        {
+          "id": "72fdf4e3-470d-4928-b4be-e5d60f761935",
+          "points": 1,
+          "acceptedAnswers": [
+            "Muhammad Ali",
+            "Ali",
+            "Cassius Clay"
+          ],
+          "type": "open",
+          "prompt": "Which boxer was nicknamed “The Greatest”?"
+        },
+        {
+          "id": "b367293f-07c0-4a2d-9cd8-d26c5f1e5aba",
+          "points": 1,
+          "acceptedAnswers": [
+            "Lionel Messi",
+            "Messi"
+          ],
+          "type": "open",
+          "prompt": "Which Argentine footballer is often called “La Pulga”?"
+        },
+        {
+          "id": "4f3c9221-18b3-4ae0-961b-a53f11287c4c",
+          "points": 1,
+          "acceptedAnswers": [
+            "Usain Bolt",
+            "Bolt"
+          ],
+          "type": "open",
+          "prompt": "Who holds the men’s 100m world record (as of the early 2020s)?"
+        },
+        {
+          "id": "ff89451e-7731-4f24-954e-e9f7cebdb762",
+          "points": 1,
+          "acceptedAnswers": [
+            "1896"
+          ],
+          "type": "numeric",
+          "prompt": "In what year were the first modern Olympic Games held in Athens?",
+          "numeric": {
+            "exact": 1896
+          }
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "allowMultipleChoice": true,
+    "themeId": "modern",
+    "defaultPoints": 1
+  },
+  "createdAt": "2026-10-15T08:57:31.142Z",
+  "updatedAt": "2026-10-15T08:57:31.142Z"
+}

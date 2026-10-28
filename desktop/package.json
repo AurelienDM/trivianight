@@ -1,0 +1,14 @@
+{
+  "name": "trivia-night-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "macOS / desktop wrapper — starts Trivia Night server and opens the host UI",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron ."
+  },
+  "dependencies": {
+    "electron": "^33.2.0"
+  }
+}

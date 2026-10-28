@@ -1,0 +1,154 @@
+{
+  "id": "quiz-world-cinema",
+  "name": "World Cinema Night",
+  "description": "Trailers and titles from global film \u2014 every video clip has a real YouTube id.",
+  "rounds": [
+    {
+      "id": "95a85df1-bc77-421f-8f33-bcd8d335d974",
+      "title": "Opening Credits",
+      "theme": "Identify the film",
+      "questions": [
+        {
+          "id": "02c4f43c-c6af-4d57-9570-b13d7caddc3f",
+          "points": 1,
+          "acceptedAnswers": [
+            "Star Wars"
+          ],
+          "type": "open",
+          "prompt": "Which franchise features lightsabers and the Force?"
+        },
+        {
+          "id": "3a08f064-f91a-4d18-9d63-688741405e54",
+          "points": 1,
+          "acceptedAnswers": [
+            "Casablanca"
+          ],
+          "type": "open",
+          "prompt": "Which classic romance is set in wartime Casablanca?"
+        },
+        {
+          "id": "cd5bce0c-be2e-45f3-b388-6f2a43b26d37",
+          "points": 1,
+          "acceptedAnswers": [
+            "The Godfather",
+            "Godfather"
+          ],
+          "type": "open",
+          "prompt": "Name this Coppola crime saga about the Corleone family."
+        },
+        {
+          "id": "a6fdea5d-2a20-403d-8f2a-8dc497fc421c",
+          "points": 1,
+          "acceptedAnswers": [
+            "Spirited Away"
+          ],
+          "type": "open",
+          "prompt": "Which Studio Ghibli film follows Chihiro in a spirit world?"
+        },
+        {
+          "id": "85072b18-0d13-4de7-b818-271aab69b79b",
+          "points": 1,
+          "acceptedAnswers": [
+            "Parasite"
+          ],
+          "type": "open",
+          "prompt": "Which Bong Joon-ho film won Best Picture at the Oscars?"
+        },
+        {
+          "id": "1676a015-c11b-4394-a958-bcdef90b4194",
+          "points": 1,
+          "acceptedAnswers": [
+            "Am\u00e9lie",
+            "Amelie",
+            "Le Fabuleux Destin d'Am\u00e9lie Poulain"
+          ],
+          "type": "open",
+          "prompt": "Name this whimsical French film about a waitress in Montmartre."
+        },
+        {
+          "id": "acf52ff6-c572-40c9-a3b1-d0c8a92664cc",
+          "points": 1,
+          "acceptedAnswers": [
+            "Seven Samurai",
+            "The Seven Samurai"
+          ],
+          "type": "open",
+          "prompt": "Which Kurosawa epic features seven warriors defending a village?"
+        },
+        {
+          "id": "56492bc7-1043-42e5-9a03-b7dedb0264e7",
+          "points": 1,
+          "acceptedAnswers": [
+            "The Matrix",
+            "Matrix"
+          ],
+          "type": "open",
+          "prompt": "Which sci-fi film asks Neo to choose the red or blue pill?"
+        }
+      ]
+    },
+    {
+      "id": "94e07c1e-f446-4a82-bf9c-0fb193895583",
+      "title": "Cinema Trivia",
+      "theme": "Without clips",
+      "questions": [
+        {
+          "id": "4fc17f8c-0305-4e09-833d-01c709e1dcdc",
+          "points": 1,
+          "acceptedAnswers": [
+            "Steven Spielberg",
+            "Spielberg"
+          ],
+          "type": "open",
+          "prompt": "Who directed \u201cJurassic Park\u201d (1993)?"
+        },
+        {
+          "id": "da7d8599-5eab-4dcb-ae5e-94046f934d75",
+          "points": 1,
+          "acceptedAnswers": [
+            "South Korea",
+            "Korea"
+          ],
+          "type": "multiple_choice",
+          "prompt": "Which country produced \u201cParasite\u201d?",
+          "choices": [
+            "Japan",
+            "China",
+            "South Korea",
+            "Taiwan"
+          ]
+        },
+        {
+          "id": "329d46df-b3a2-4557-b71a-b3e809b3b99f",
+          "points": 1,
+          "acceptedAnswers": [
+            "Studio Ghibli",
+            "Ghibli"
+          ],
+          "type": "open",
+          "prompt": "What is the Japanese animation studio behind \u201cSpirited Away\u201d?"
+        },
+        {
+          "id": "550ff241-c531-4190-8328-f619f8e3a48b",
+          "points": 1,
+          "acceptedAnswers": [
+            "1929"
+          ],
+          "type": "numeric",
+          "prompt": "In what year was the first Academy Awards ceremony held?",
+          "numeric": {
+            "exact": 1929,
+            "tolerance": 1
+          }
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "allowMultipleChoice": true,
+    "themeId": "modern",
+    "defaultPoints": 1
+  },
+  "createdAt": "2026-10-15T08:57:31.142Z",
+  "updatedAt": "2026-10-15T08:57:31.142Z"
+}

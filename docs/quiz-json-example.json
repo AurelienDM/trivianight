@@ -1,0 +1,67 @@
+{
+  "name": "ChatGPT Example Quiz",
+  "description": "Minimal importable pack \u2014 open, MC, numeric, video with real youtubeId.",
+  "settings": {
+    "allowMultipleChoice": true,
+    "themeId": "modern",
+    "defaultPoints": 1
+  },
+  "rounds": [
+    {
+      "title": "Sample Round",
+      "theme": "Schema demo",
+      "questions": [
+        {
+          "type": "open",
+          "prompt": "What is the chemical symbol for gold?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Au"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "What is H2O commonly known as?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Water"
+          ],
+          "choices": [
+            "Hydrogen peroxide",
+            "Water",
+            "Salt",
+            "Ammonia"
+          ]
+        },
+        {
+          "type": "numeric",
+          "prompt": "What is the atomic number of carbon?",
+          "points": 1,
+          "acceptedAnswers": [
+            "6"
+          ],
+          "numeric": {
+            "exact": 6
+          }
+        },
+        {
+          "type": "video",
+          "prompt": "Which historic event is shown in this archive clip?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Apollo 11 moon landing",
+            "Moon landing",
+            "Apollo 11"
+          ],
+          "media": {
+            "kind": "youtube",
+            "youtubeId": "RMINSD7MmT4",
+            "url": "https://www.youtube.com/embed/RMINSD7MmT4?rel=0&modestbranding=1",
+            "title": "Apollo 11 Moon Landing",
+            "artist": "NASA"
+          }
+        }
+      ]
+    }
+  ]
+}

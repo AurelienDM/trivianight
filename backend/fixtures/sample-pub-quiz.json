@@ -1,0 +1,1024 @@
+{
+  "id": "sample-pub-quiz",
+  "name": "Trivia Night Sample",
+  "description": "Default pub quiz with music (Deezer), picture, and brand logo rounds.",
+  "rounds": [
+    {
+      "id": "2dc65708-10f7-4418-b4d4-f0d79551be87",
+      "title": "General Knowledge",
+      "theme": "Warm-up brain teasers",
+      "questions": [
+        {
+          "id": "c5c62521-0de6-42b1-b1e5-a1a08dd2c665",
+          "type": "open",
+          "prompt": "What is the capital of France?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Paris"
+          ]
+        },
+        {
+          "id": "c0e10016-a93b-4cc5-b9ac-2596c54010f4",
+          "type": "open",
+          "prompt": "Who wrote the novel \"1984\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "George Orwell",
+            "Orwell",
+            "Eric Blair"
+          ]
+        },
+        {
+          "id": "b06e2c97-3dc9-4f87-8e1c-e718df98f24c",
+          "type": "open",
+          "prompt": "What planet is known as the Red Planet?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Mars"
+          ]
+        },
+        {
+          "id": "6184e67c-4e71-47ad-b72f-efb66cc79dd9",
+          "type": "open",
+          "prompt": "How many sides does a hexagon have?",
+          "points": 1,
+          "acceptedAnswers": [
+            "6",
+            "six"
+          ]
+        },
+        {
+          "id": "fc33b13f-3f97-4c1b-aa8e-49ce1fe916f3",
+          "type": "open",
+          "prompt": "What is the chemical symbol for gold?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Au"
+          ]
+        },
+        {
+          "id": "dfdbd36b-bc54-4ac5-8abb-b460c5fcec97",
+          "type": "numeric",
+          "prompt": "In which year did the Titanic sink?",
+          "points": 1,
+          "acceptedAnswers": [
+            "1912"
+          ],
+          "numeric": {
+            "exact": 1912
+          }
+        },
+        {
+          "id": "87eb7b5b-2c7f-40a2-81b2-01246f0796d4",
+          "type": "open",
+          "prompt": "Who painted the Mona Lisa?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Leonardo da Vinci",
+            "da Vinci",
+            "Leonardo"
+          ]
+        },
+        {
+          "id": "2134b491-2aa8-4b5e-9959-e120b1af2437",
+          "type": "multiple_choice",
+          "prompt": "Which ocean is the largest?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Pacific",
+            "Pacific Ocean"
+          ],
+          "choices": [
+            "Atlantic",
+            "Indian",
+            "Pacific",
+            "Arctic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "038ef4ac-7489-48d6-a125-ccbd709ee895",
+      "title": "Name That Tune",
+      "theme": "Music identification via Deezer ~30s previews",
+      "questions": [
+        {
+          "id": "331b9400-80ff-4734-9572-5f53678a2345",
+          "type": "music",
+          "prompt": "Which artist released the album \"Thriller\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Michael Jackson",
+            "MJ"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "4603408",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3?hdnea=exp=1792059151~acl=/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3*~data=user_id=0,application_id=42~hmac=f057d6693101719a1b642fe5cfa18aea0d967b6b86ba4485ea177975e710ec5d",
+            "title": "Billie Jean",
+            "artist": "Michael Jackson"
+          }
+        },
+        {
+          "id": "82a52665-00e0-4ab3-b320-855d88b69ba7",
+          "type": "music",
+          "prompt": "Name the band behind \"Hey Jude\".",
+          "points": 1,
+          "acceptedAnswers": [
+            "The Beatles",
+            "Beatles"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "126848613",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/a/b/0/8ab405ece8e5a5e8a3590a673cb18d9a.mp3?hdnea=exp=1792059151~acl=/api/1/1/8/a/b/0/8ab405ece8e5a5e8a3590a673cb18d9a.mp3*~data=user_id=0,application_id=42~hmac=8fcce61ef80aba9167b059e0cadfb685279d2901968baa826a8838a4bd439e24",
+            "title": "Hey Jude",
+            "artist": "The Beatles"
+          }
+        },
+        {
+          "id": "fbe4ae90-8952-49ef-a74e-ff75d61acac7",
+          "type": "music",
+          "prompt": "Who sings \"Single Ladies (Put a Ring on It)\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Beyonc\u00e9",
+            "Beyonce",
+            "Beyonc\u00e9 Knowles"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "2485118",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/c/9/0/0c9cc0beae938bd297f288ff142133f4.mp3?hdnea=exp=1792059152~acl=/api/1/1/0/c/9/0/0c9cc0beae938bd297f288ff142133f4.mp3*~data=user_id=0,application_id=42~hmac=5101c54bf8baaa74920610377f3e2ff73de4186fa49e92a8cad6ba166ddddf8d",
+            "title": "Single Ladies (Put a Ring on It)",
+            "artist": "Beyonc\u00e9"
+          }
+        },
+        {
+          "id": "215cc74c-cb53-433a-b072-ac9e7e56fa1a",
+          "type": "music",
+          "prompt": "Which Irish rock band is fronted by Bono?",
+          "points": 1,
+          "acceptedAnswers": [
+            "U2"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "2174201977",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/c/6/0/8c6f7e7fa9fb47ef212aa4607b0500fc.mp3?hdnea=exp=1792059152~acl=/api/1/1/8/c/6/0/8c6f7e7fa9fb47ef212aa4607b0500fc.mp3*~data=user_id=0,application_id=42~hmac=81d90a42b62f6e5051cdb68fcbf1c666ae824d218cad8bcd33b6cd4e0684ad43",
+            "title": "Beautiful Day",
+            "artist": "U2"
+          }
+        },
+        {
+          "id": "9c635ab4-0e8c-4756-9b08-a2b937c0cae7",
+          "type": "music",
+          "prompt": "Name the artist of \"Purple Rain\".",
+          "points": 1,
+          "acceptedAnswers": [
+            "Prince",
+            "Prince Rogers Nelson"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "374283061",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/d/a/0/bda5bec32c133fbce832b83eb026feaf.mp3?hdnea=exp=1792059152~acl=/api/1/1/b/d/a/0/bda5bec32c133fbce832b83eb026feaf.mp3*~data=user_id=0,application_id=42~hmac=b9b015259fd76e9d455308e4fb9dc5be8779cd96008956f8d3c5ca2fbad8e55c",
+            "title": "Purple Rain",
+            "artist": "Prince"
+          }
+        },
+        {
+          "id": "dab101d0-ac9b-42c2-9538-f6942bcfe7d5",
+          "type": "music",
+          "prompt": "Which band recorded \"Bohemian Rhapsody\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Queen"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "4091937401",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/5/f/9/0/5f9a6a2ea1876e6d07c4b7feefa99951.mp3?hdnea=exp=1792059152~acl=/api/1/1/5/f/9/0/5f9a6a2ea1876e6d07c4b7feefa99951.mp3*~data=user_id=0,application_id=42~hmac=6492408b5c845c07e467e04799cf4ee2146d4303a986ca0d53d6f7a12e28a0c7",
+            "title": "Bohemian Rhapsody",
+            "artist": "Queen"
+          }
+        },
+        {
+          "id": "6eb73fe8-83fd-4bd5-b54a-5b1004e0551a",
+          "type": "music",
+          "prompt": "Who is known as the \"Queen of Pop\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Madonna"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "678336",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/f/0/25fbaf464b037d6c6fefd78a9ef1c115.mp3?hdnea=exp=1792059153~acl=/api/1/1/2/5/f/0/25fbaf464b037d6c6fefd78a9ef1c115.mp3*~data=user_id=0,application_id=42~hmac=c8c94ebb7984c4399372ca83287c00da05a382a9fa88d0f68f918cd940465da2",
+            "title": "Like a Virgin",
+            "artist": "Madonna"
+          }
+        },
+        {
+          "id": "aba1776a-9ae0-4442-8e07-a5a3dc23d6c3",
+          "type": "music",
+          "prompt": "Name the British band that sang \"Wonderwall\".",
+          "points": 1,
+          "acceptedAnswers": [
+            "Oasis"
+          ],
+          "musicFields": [
+            "artist"
+          ],
+          "media": {
+            "kind": "deezer",
+            "deezerTrackId": "985745702",
+            "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/9/9/0/e992ed1b27bd8da3c4f6128047285674.mp3?hdnea=exp=1792059153~acl=/api/1/1/e/9/9/0/e992ed1b27bd8da3c4f6128047285674.mp3*~data=user_id=0,application_id=42~hmac=53c7525c8836de9e6462d2a5071f7f9d5ce6f1d4c4501840e0851ea3e4ef1d34",
+            "title": "Wonderwall",
+            "artist": "Oasis"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db1162d0-2def-43c0-956d-ffb52fc6fc8d",
+      "title": "Movies & TV",
+      "theme": "Film and television",
+      "questions": [
+        {
+          "id": "1024232a-44fc-461c-82dc-dfe44a6d4dd1",
+          "type": "open",
+          "prompt": "Who directed \"Jurassic Park\" (1993)?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Steven Spielberg",
+            "Spielberg"
+          ]
+        },
+        {
+          "id": "a3ce6c7b-4d2f-4521-8aa5-d7f0cdf1832b",
+          "type": "open",
+          "prompt": "What is the name of the coffee shop in \"Friends\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Central Perk"
+          ]
+        },
+        {
+          "id": "4f7ba736-0072-4ffa-bb72-946be661833c",
+          "type": "open",
+          "prompt": "In \"The Matrix\", does Neo take the red pill or the blue pill?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Red",
+            "Red pill",
+            "the red pill"
+          ]
+        },
+        {
+          "id": "c8eba565-426b-47d6-8e22-eac4ca5423aa",
+          "type": "open",
+          "prompt": "Which franchise features lightsabers and the Force?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Star Wars"
+          ]
+        },
+        {
+          "id": "4458f92d-0cb8-4d12-9b21-4879bab7d53d",
+          "type": "open",
+          "prompt": "Who played Jack Dawson in \"Titanic\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Leonardo DiCaprio",
+            "Leo DiCaprio",
+            "DiCaprio"
+          ]
+        },
+        {
+          "id": "b83bdaaa-8ada-4ada-9164-4c567f4dfb83",
+          "type": "open",
+          "prompt": "What fictional paper company is the setting of \"The Office\" (US)?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Dunder Mifflin"
+          ]
+        },
+        {
+          "id": "59a81a1d-d8a1-4776-9be5-4efa232ad184",
+          "type": "open",
+          "prompt": "Which movie features the quote \"I'll be back\"?",
+          "points": 1,
+          "acceptedAnswers": [
+            "The Terminator",
+            "Terminator"
+          ]
+        },
+        {
+          "id": "e61c1fbf-8fc8-48f0-a3ea-74003dfb5884",
+          "type": "multiple_choice",
+          "prompt": "Which HBO series is set in Westeros?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Game of Thrones",
+            "GoT"
+          ],
+          "choices": [
+            "The Wire",
+            "Game of Thrones",
+            "Westworld",
+            "True Detective"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cf232979-3e6b-4c50-ac29-6a5f791f0d72",
+      "title": "Picture Round",
+      "theme": "Identify from images",
+      "questions": [
+        {
+          "id": "05688c01-0452-47e8-9cd0-bfe123c57ebd",
+          "type": "image",
+          "prompt": "Which landmark is this? (Eiffel Tower)",
+          "points": 1,
+          "acceptedAnswers": [
+            "Eiffel Tower",
+            "The Eiffel Tower"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Eiffel Tower"
+          },
+          "imageReveal": {
+            "blurStart": 20,
+            "steps": 4
+          }
+        },
+        {
+          "id": "8ecc193f-1ff0-4421-9f22-af1385f7ae62",
+          "type": "image",
+          "prompt": "Which animal is known as the king of the jungle?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Lion"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Lion"
+          }
+        },
+        {
+          "id": "1fcdfb5a-25d6-4753-9739-d17dedee4f63",
+          "type": "image",
+          "prompt": "Name this fruit (yellow, curved).",
+          "points": 1,
+          "acceptedAnswers": [
+            "Banana"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Banana"
+          }
+        },
+        {
+          "id": "770dd5f6-26fc-4e23-afcf-872e788b3234",
+          "type": "image",
+          "prompt": "Which planet has prominent rings?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Saturn"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Saturn"
+          }
+        },
+        {
+          "id": "5100fb9b-85dc-48ff-962e-69e70e9cc0d2",
+          "type": "image",
+          "prompt": "Name the sport played at Wimbledon on grass.",
+          "points": 1,
+          "acceptedAnswers": [
+            "Tennis"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Tennis"
+          }
+        },
+        {
+          "id": "007a87a5-cc3e-44a7-8bfa-66161c609405",
+          "type": "image",
+          "prompt": "Which instrument has 88 keys?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Piano",
+            "Grand piano"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Piano"
+          }
+        },
+        {
+          "id": "d3b12a9a-1572-4621-8096-2ea1c9b88ad5",
+          "type": "image",
+          "prompt": "Name this famous clock tower in London.",
+          "points": 1,
+          "acceptedAnswers": [
+            "Big Ben",
+            "Elizabeth Tower"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Big Ben"
+          }
+        },
+        {
+          "id": "99672605-7384-443c-84ec-3a34abbb9ca2",
+          "type": "image",
+          "prompt": "Which sea creature has eight arms?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Octopus"
+          ],
+          "media": {
+            "kind": "image",
+            "title": "Octopus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3efb4f5a-3295-40d5-9d0f-21b7676778d4",
+      "title": "Brand Logos",
+      "theme": "Name the brand from its logo",
+      "questions": [
+        {
+          "id": "39e4a992-75ae-42cf-88af-537ae4b5fdf6",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Nike",
+            "Nike, Inc."
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20NIKE.svg",
+            "title": "Nike",
+            "domain": "nike.com",
+            "brandKey": "nike"
+          }
+        },
+        {
+          "id": "0f041270-5d3f-439f-b35e-305465f6db57",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Apple",
+            "Apple Inc.",
+            "Apple Computer"
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apple%20logo%20black.svg",
+            "title": "Apple",
+            "domain": "apple.com",
+            "brandKey": "apple"
+          }
+        },
+        {
+          "id": "269cecc4-71cc-478a-93d6-1ff2f9484232",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "McDonald's",
+            "McDonalds",
+            "Maccas"
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McDonald%27s_Golden_Arches.svg",
+            "title": "McDonald's",
+            "domain": "mcdonalds.com",
+            "brandKey": "mcdonalds"
+          }
+        },
+        {
+          "id": "4fe6f251-c60d-44ee-a744-5b932c12dbaa",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Adidas",
+            "adidas"
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adidas_Logo.svg",
+            "title": "Adidas",
+            "domain": "adidas.com",
+            "brandKey": "adidas"
+          }
+        },
+        {
+          "id": "a0bacd34-fb72-42b3-a210-031b95362b45",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Coca-Cola",
+            "Coke",
+            "Coca Cola"
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coca-Cola_logo.svg",
+            "title": "Coca-Cola",
+            "domain": "coca-cola.com",
+            "brandKey": "coca-cola"
+          }
+        },
+        {
+          "id": "af89e435-dc4f-4f63-a36c-bfa4be99b8de",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Starbucks",
+            "Starbucks Coffee"
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Starbucks_Corporation_Logo_%282011%29.svg",
+            "title": "Starbucks",
+            "domain": "starbucks.com",
+            "brandKey": "starbucks"
+          }
+        },
+        {
+          "id": "d950d720-1e80-458a-8d85-05a290a347cf",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Target",
+            "Target Corporation"
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Target_Corporation_logo_%28vector%29.svg",
+            "title": "Target",
+            "domain": "target.com",
+            "brandKey": "target"
+          }
+        },
+        {
+          "id": "931391fa-02f3-4a58-a6b1-0ef704fbddb3",
+          "type": "brand_logo",
+          "prompt": "Which brand does this logo belong to?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Amazon",
+            "Amazon.com",
+            "Amazon.com, Inc."
+          ],
+          "media": {
+            "kind": "image",
+            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_logo.svg",
+            "title": "Amazon",
+            "domain": "amazon.com",
+            "brandKey": "amazon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c4014a04-fa22-4da0-a9dd-fbc36f791d64",
+      "title": "What links them?",
+      "theme": "What links these clues?",
+      "questions": [
+        {
+          "id": "6cfbce9b-95cc-4db7-a39c-7e05b84ba754",
+          "type": "open",
+          "prompt": "Mercury, Venus, Earth, Mars \u2014 what are they?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Planets",
+            "Planets of the solar system",
+            "Solar system planets"
+          ],
+          "notes": "clues: Mercury | Venus | Earth | Mars"
+        },
+        {
+          "id": "dd3c79ad-b3b1-48a2-9302-7b3cb37eb63d",
+          "type": "open",
+          "prompt": "Lion, Tin Man, Scarecrow, Dorothy \u2014 which story?",
+          "points": 1,
+          "acceptedAnswers": [
+            "The Wizard of Oz",
+            "Wizard of Oz",
+            "Oz"
+          ],
+          "notes": "clues: Lion | Tin Man | Scarecrow | Dorothy"
+        },
+        {
+          "id": "c03b3f4d-d62e-4e0b-8645-cdc27e6f36c7",
+          "type": "open",
+          "prompt": "John, Paul, George, Ringo \u2014 which band?",
+          "points": 1,
+          "acceptedAnswers": [
+            "The Beatles",
+            "Beatles"
+          ],
+          "notes": "clues: John | Paul | George | Ringo"
+        },
+        {
+          "id": "589642fc-1308-4ee5-b14c-5524fdbbc7d2",
+          "type": "open",
+          "prompt": "Heart, diamond, club, spade \u2014 what are they?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Suits",
+            "Playing card suits",
+            "Card suits"
+          ],
+          "notes": "clues: Heart | Diamond | Club | Spade"
+        },
+        {
+          "id": "9d4b013e-d5ea-4dd3-aa2b-08821aa4aaea",
+          "type": "open",
+          "prompt": "Romeo, Juliet, Macbeth, Hamlet \u2014 who wrote them?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Shakespeare",
+            "William Shakespeare"
+          ],
+          "notes": "clues: Romeo | Juliet | Macbeth | Hamlet"
+        },
+        {
+          "id": "086a9b4b-99b0-40ff-896a-0d90b19afa32",
+          "type": "open",
+          "prompt": "Atlantic, Pacific, Indian, Arctic \u2014 what are they?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Oceans"
+          ],
+          "notes": "clues: Atlantic | Pacific | Indian | Arctic"
+        },
+        {
+          "id": "e58e0d40-6a97-444e-a3ed-82f555eb29f2",
+          "type": "open",
+          "prompt": "Red, blue, yellow \u2014 in painting these are?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Primary colors",
+            "Primary colours",
+            "Primaries"
+          ],
+          "notes": "clues: Red | Blue | Yellow"
+        },
+        {
+          "id": "12cba957-c8e3-48da-961b-6844801e9b10",
+          "type": "open",
+          "prompt": "Matthew, Mark, Luke, John \u2014 what are they?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Gospels",
+            "The Gospels",
+            "Gospel writers",
+            "Evangelists"
+          ],
+          "notes": "clues: Matthew | Mark | Luke | John"
+        }
+      ]
+    },
+    {
+      "id": "d5d8758e-4512-4d4d-b8c1-d9d648a8a096",
+      "title": "Guess the Year",
+      "theme": "Numerical estimation",
+      "questions": [
+        {
+          "id": "a9436fc0-1cab-4368-bf33-a9034bfcc10f",
+          "type": "numeric",
+          "prompt": "In what year did World War II end in Europe (VE Day)?",
+          "points": 1,
+          "acceptedAnswers": [
+            "1945"
+          ],
+          "numeric": {
+            "exact": 1945
+          }
+        },
+        {
+          "id": "99028b50-f0ba-460f-b532-9ca73b6b06f1",
+          "type": "numeric",
+          "prompt": "In what year did humans first land on the Moon?",
+          "points": 1,
+          "acceptedAnswers": [
+            "1969"
+          ],
+          "numeric": {
+            "exact": 1969
+          }
+        },
+        {
+          "id": "6892b184-92b6-497e-986f-6ee2d7ea3747",
+          "type": "numeric",
+          "prompt": "In what year was the first iPhone released?",
+          "points": 1,
+          "acceptedAnswers": [
+            "2007"
+          ],
+          "numeric": {
+            "exact": 2007
+          }
+        },
+        {
+          "id": "ac8a14a5-8265-4a65-bba3-1d3ba09a9d89",
+          "type": "numeric",
+          "prompt": "In what year did the Berlin Wall fall?",
+          "points": 1,
+          "acceptedAnswers": [
+            "1989"
+          ],
+          "numeric": {
+            "exact": 1989
+          }
+        },
+        {
+          "id": "b91778fb-ced8-42d9-b285-368d68505cb8",
+          "type": "numeric",
+          "prompt": "Approximately how many keys are on a standard piano? (\u00b12)",
+          "points": 1,
+          "acceptedAnswers": [
+            "88"
+          ],
+          "numeric": {
+            "exact": 88,
+            "tolerance": 2
+          }
+        },
+        {
+          "id": "3c0f8ea9-2de9-49f7-8f45-76b47aae935e",
+          "type": "numeric",
+          "prompt": "How many degrees are in a circle?",
+          "points": 1,
+          "acceptedAnswers": [
+            "360"
+          ],
+          "numeric": {
+            "exact": 360
+          }
+        },
+        {
+          "id": "95b41092-dd27-4c29-9d87-f272fbf2399e",
+          "type": "numeric",
+          "prompt": "In what year was the World Wide Web proposed by Tim Berners-Lee?",
+          "points": 1,
+          "acceptedAnswers": [
+            "1989"
+          ],
+          "numeric": {
+            "exact": 1989,
+            "tolerance": 1
+          }
+        },
+        {
+          "id": "3e85cdde-2b6e-4917-9e5b-a654992e324b",
+          "type": "numeric",
+          "prompt": "How many players are on a soccer team on the field per side?",
+          "points": 1,
+          "acceptedAnswers": [
+            "11"
+          ],
+          "numeric": {
+            "exact": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "37b0ea12-1f16-401e-92a6-024139d7e2e0",
+      "title": "Geography & Culture",
+      "theme": "Places and cultures",
+      "questions": [
+        {
+          "id": "e0e79682-b1b3-49c5-8747-2834301371ec",
+          "type": "open",
+          "prompt": "What is the largest country by area?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Russia",
+            "Russian Federation"
+          ]
+        },
+        {
+          "id": "6df5f47c-2d17-4cad-9416-73a970da968c",
+          "type": "open",
+          "prompt": "Which river flows through Egypt?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Nile",
+            "The Nile",
+            "Nile River"
+          ]
+        },
+        {
+          "id": "733f9b8e-c92d-4aa8-8618-e3b85858f521",
+          "type": "open",
+          "prompt": "What language is spoken in Brazil?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Portuguese"
+          ]
+        },
+        {
+          "id": "934aa4c3-6420-4abe-ae72-9839eb75a1b4",
+          "type": "open",
+          "prompt": "Mount Everest lies on the border of Nepal and which country?",
+          "points": 1,
+          "acceptedAnswers": [
+            "China",
+            "Tibet",
+            "China (Tibet)"
+          ]
+        },
+        {
+          "id": "c46ddd5a-3de7-42cc-accc-cc6bb4d3978b",
+          "type": "ordering",
+          "prompt": "Order these cities north to south: Cairo, London, Cape Town, Paris",
+          "points": 1,
+          "acceptedAnswers": [
+            "London",
+            "Paris",
+            "Cairo",
+            "Cape Town"
+          ],
+          "orderItems": [
+            "London",
+            "Paris",
+            "Cairo",
+            "Cape Town"
+          ]
+        },
+        {
+          "id": "56659e18-1e5a-40fd-97fa-de22d4f52fba",
+          "type": "open",
+          "prompt": "Which desert is the largest hot desert in the world?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Sahara",
+            "Sahara Desert"
+          ]
+        },
+        {
+          "id": "be8266b7-889d-4b19-9424-0516f2905aa5",
+          "type": "open",
+          "prompt": "What is the currency of Japan?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Yen",
+            "Japanese Yen",
+            "JPY"
+          ]
+        },
+        {
+          "id": "9163fc45-3089-4909-a138-42971ff2df48",
+          "type": "open",
+          "prompt": "Which city hosted the 2012 Summer Olympics?",
+          "points": 1,
+          "acceptedAnswers": [
+            "London"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "50a33a9b-5616-4d41-aad3-0b04c6b8a4b3",
+      "title": "Grand Finale",
+      "theme": "Mixed bag \u2014 play for glory",
+      "questions": [
+        {
+          "id": "1baf88ab-c9a3-49ae-8591-194ed9e10a6d",
+          "type": "open",
+          "prompt": "What is the smallest prime number?",
+          "points": 1,
+          "acceptedAnswers": [
+            "2",
+            "two"
+          ]
+        },
+        {
+          "id": "9c98001d-5c70-4fd1-b223-1edbc0f9be53",
+          "type": "open",
+          "prompt": "Who discovered penicillin?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Alexander Fleming",
+            "Fleming"
+          ]
+        },
+        {
+          "id": "6e0bd735-9829-4e14-adb0-e0b9158539f1",
+          "type": "open",
+          "prompt": "What does CPU stand for?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Central Processing Unit"
+          ]
+        },
+        {
+          "id": "1fbabe22-52ea-41eb-9387-a6cbfe4d53d6",
+          "type": "open",
+          "prompt": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Hamlet"
+          ]
+        },
+        {
+          "id": "ce38fdec-abdc-48dc-bc70-a11c916ec1c2",
+          "type": "numeric",
+          "prompt": "How many continents are there on Earth (standard model)?",
+          "points": 1,
+          "acceptedAnswers": [
+            "7"
+          ],
+          "numeric": {
+            "exact": 7
+          }
+        },
+        {
+          "id": "8fa14b32-ca1b-4670-b0f9-136ae599f585",
+          "type": "open",
+          "prompt": "What is the square root of 144?",
+          "points": 1,
+          "acceptedAnswers": [
+            "12",
+            "twelve"
+          ]
+        },
+        {
+          "id": "e7e75f5a-219d-44d6-b5d4-ed76781d0baf",
+          "type": "ordering",
+          "prompt": "Order these events earliest to latest: Moon landing, Fall of Berlin Wall, First iPhone, Titanic sinking",
+          "points": 1,
+          "acceptedAnswers": [
+            "Titanic sinking",
+            "Moon landing",
+            "Fall of Berlin Wall",
+            "First iPhone"
+          ],
+          "orderItems": [
+            "Titanic sinking",
+            "Moon landing",
+            "Fall of Berlin Wall",
+            "First iPhone"
+          ]
+        },
+        {
+          "id": "11c61322-d732-47f4-976d-41827f8a8e42",
+          "type": "open",
+          "prompt": "In Greek mythology, who is the king of the gods?",
+          "points": 1,
+          "acceptedAnswers": [
+            "Zeus"
+          ]
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "allowMultipleChoice": true,
+    "themeId": "modern",
+    "defaultPoints": 1
+  },
+  "createdAt": "2026-10-14T20:28:26.886Z",
+  "updatedAt": "2026-10-14T21:16:40.578Z"
+}

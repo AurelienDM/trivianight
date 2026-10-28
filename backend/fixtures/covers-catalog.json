@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cover-thriller-mj",
+    "originalTitle": "Billie Jean",
+    "originalArtist": "Michael Jackson",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "Zi_XLOBDo_Y",
+    "query": "Billie Jean cover",
+    "tags": ["pop", "80s", "jackson"]
+  },
+  {
+    "id": "cover-hey-jude",
+    "originalTitle": "Hey Jude",
+    "originalArtist": "The Beatles",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "A_MjCqQoLLA",
+    "query": "Hey Jude cover band",
+    "tags": ["beatles", "rock"]
+  },
+  {
+    "id": "cover-single-ladies",
+    "originalTitle": "Single Ladies (Put a Ring on It)",
+    "originalArtist": "Beyoncé",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "4m1EFMoRFvY",
+    "query": "Single Ladies cover",
+    "tags": ["beyonce", "pop"]
+  },
+  {
+    "id": "cover-u2-beautiful-day",
+    "originalTitle": "Beautiful Day",
+    "originalArtist": "U2",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "co6WMzDOh1o",
+    "query": "Beautiful Day U2 cover",
+    "tags": ["u2", "rock"]
+  },
+  {
+    "id": "cover-purple-rain",
+    "originalTitle": "Purple Rain",
+    "originalArtist": "Prince",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "TvnYmWpDAcY",
+    "query": "Purple Rain cover",
+    "tags": ["prince", "80s"]
+  },
+  {
+    "id": "cover-bohemian",
+    "originalTitle": "Bohemian Rhapsody",
+    "originalArtist": "Queen",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "fJ9rUzIMcZQ",
+    "query": "Bohemian Rhapsody karaoke instrumental",
+    "tags": ["queen", "rock"]
+  },
+  {
+    "id": "cover-madonna-like-virgin",
+    "originalTitle": "Like a Virgin",
+    "originalArtist": "Madonna",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "2AN7hR_LbnM",
+    "query": "Like a Virgin cover",
+    "tags": ["madonna", "pop"]
+  },
+  {
+    "id": "cover-wonderwall",
+    "originalTitle": "Wonderwall",
+    "originalArtist": "Oasis",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "bx1Bh8ZvH84",
+    "query": "Wonderwall cover acoustic",
+    "tags": ["oasis", "britpop"]
+  },
+  {
+    "id": "cover-star-wars-theme",
+    "originalTitle": "Star Wars Main Title",
+    "originalArtist": "John Williams",
+    "coverLabel": "Orchestral / cover performance",
+    "youtubeId": "yHu4_3qK2O8",
+    "query": "Star Wars theme cover",
+    "tags": ["soundtrack", "film"]
+  },
+  {
+    "id": "cover-take-on-me",
+    "originalTitle": "Take On Me",
+    "originalArtist": "a-ha",
+    "coverLabel": "Cover / tribute performance",
+    "youtubeId": "djV11Xbc914",
+    "query": "Take On Me cover",
+    "tags": ["80s", "pop"]
+  }
+]

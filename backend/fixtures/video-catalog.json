@@ -1,0 +1,82 @@
+[
+  {
+    "id": "video-star-wars-theme",
+    "title": "Star Wars",
+    "artist": "John Williams / Lucasfilm",
+    "youtubeId": "1g3VweF6cVU",
+    "query": "star wars theme",
+    "tags": ["film", "sci-fi", "soundtrack"]
+  },
+  {
+    "id": "video-apollo-11",
+    "title": "Apollo 11 Moon Landing",
+    "artist": "NASA",
+    "youtubeId": "RMINSD7MmT4",
+    "query": "apollo 11 moon landing",
+    "tags": ["history", "space", "nasa"]
+  },
+  {
+    "id": "video-casablanca",
+    "title": "Casablanca trailer",
+    "artist": "Warner Bros.",
+    "youtubeId": "BkL9l7qovsE",
+    "query": "casablanca trailer",
+    "tags": ["film", "classic", "cinema"]
+  },
+  {
+    "id": "video-godfather",
+    "title": "The Godfather trailer",
+    "artist": "Paramount",
+    "youtubeId": "sY1S34973zA",
+    "query": "godfather trailer",
+    "tags": ["film", "crime", "cinema"]
+  },
+  {
+    "id": "video-spirited-away",
+    "title": "Spirited Away trailer",
+    "artist": "Studio Ghibli",
+    "youtubeId": "ByXuk9QqQkk",
+    "query": "spirited away trailer",
+    "tags": ["anime", "ghibli", "cinema"]
+  },
+  {
+    "id": "video-parasite",
+    "title": "Parasite trailer",
+    "artist": "Bong Joon-ho",
+    "youtubeId": "5xH0HfJHsaY",
+    "query": "parasite trailer",
+    "tags": ["korean", "cinema", "thriller"]
+  },
+  {
+    "id": "video-amelie",
+    "title": "Amélie trailer",
+    "artist": "Jean-Pierre Jeunet",
+    "youtubeId": "HUECWi5pX7o",
+    "query": "amelie trailer",
+    "tags": ["french", "cinema"]
+  },
+  {
+    "id": "video-seven-samurai",
+    "title": "Seven Samurai clip",
+    "artist": "Akira Kurosawa",
+    "youtubeId": "wJ1IQzjlzBw",
+    "query": "seven samurai",
+    "tags": ["japanese", "cinema", "classic"]
+  },
+  {
+    "id": "video-matrix",
+    "title": "The Matrix trailer",
+    "artist": "Wachowski",
+    "youtubeId": "vKQi3bBA1y8",
+    "query": "matrix trailer",
+    "tags": ["sci-fi", "film"]
+  },
+  {
+    "id": "video-jurassic",
+    "title": "Jurassic Park trailer",
+    "artist": "Steven Spielberg",
+    "youtubeId": "lc0UehItbPH",
+    "query": "jurassic park trailer",
+    "tags": ["film", "dinosaur"]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "2660f74a-b2c3-4d5e-9f0a-1b2c3d4e5f6a",
+  "name": "MC Coerce — Noble gas",
+  "description": "Seeded fix: which-of-these noble gas as MC.",
+  "rounds": [
+    {
+      "id": "r1-noble",
+      "title": "Science",
+      "questions": [
+        {
+          "id": "q-noble-gas",
+          "type": "multiple_choice",
+          "prompt": "Which of these is a noble gas?",
+          "points": 1,
+          "acceptedAnswers": ["Neon", "neon"],
+          "choices": ["Sodium", "Chlorine", "Neon", "Iron"]
+        }
+      ]
+    }
+  ],
+  "settings": { "themeId": "modern", "allowMultipleChoice": true, "defaultPoints": 1 },
+  "createdAt": "2026-10-15T00:00:00.000Z",
+  "updatedAt": "2026-10-15T00:00:00.000Z"
+}
